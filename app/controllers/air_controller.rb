@@ -39,6 +39,6 @@ class AirController < ApplicationController
       @array_of_numbers.push(another_number)
     end
 
-    render({ :template => "flame_html/aquarius.html.erb" })
+    render({ :template => "flame_interface/aquarius.html.erb" })
   end
 end
